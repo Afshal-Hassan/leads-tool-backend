@@ -1,0 +1,16 @@
+{
+  "name": "leads-tool-backend",
+  "version": "1.0.0",
+  "description": "This is a leads tool backend for client",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/serve.js",
+    "watch": "tsc --watch",
+    "test": "jest --runInBand",
+    "test:jest": "jest --runInBand",
+    "format": "prettier --single-quote --trailing-comma=all --write \"src/**/*.ts\""
+  },
+  "author": "Afshal Hassan",
+  "license": "ISC"
+}
